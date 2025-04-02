@@ -26,3 +26,13 @@ Make sure you have Python installed on your system. You also need to obtain API 
    ```bash
    git clone https://github.com/your-username/text-summarizer-bot.git
    cd text-summarizer-bot
+2. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+3. **Create a .env file and add your API keys:**
+    ```bash
+    echo "COHERE_API_KEY=your-cohere-api-key" >> .env
+    echo "TELEGRAM_BOT_API_KEY=your-telegram-bot-api-key" >> .env
+4.**Run the bot**
+  ```bash
+     python bot.py
